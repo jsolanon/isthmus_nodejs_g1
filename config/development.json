@@ -1,4 +1,8 @@
 {
     "port": 5000,
-    "environment": "Development"
+    "environment": "Development",
+    "jwt_secret": "this_is_top_secret",
+    "data_base": {
+        "mongo_uri": "mongodb+srv://sa:j0cBvrn0M6NQambO@cluster0.o0iff.gcp.mongodb.net/curso?retryWrites=true&w=majority"
+    }
 }

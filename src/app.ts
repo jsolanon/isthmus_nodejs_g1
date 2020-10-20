@@ -8,8 +8,8 @@ import routes from './routes';
 const app = express(); //Inicializar express, modulo de node, para RESTful
 
 app.use(helmet());//Seguridad.
-app.use(bodyParser.json());//Respuestas y post en formato json
 app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());//Respuestas y post en formato json
 app.use(cors());//caracteristicas de los apis,bloqueos o accesos
 app.use(express.json());//Respuestas y post en formato json
 
